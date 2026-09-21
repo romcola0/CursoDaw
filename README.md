@@ -1,2 +1,2 @@
 # CursoDaw
-Trabajos del curso y Pruebas
+Trabajos del curso y Tareas
