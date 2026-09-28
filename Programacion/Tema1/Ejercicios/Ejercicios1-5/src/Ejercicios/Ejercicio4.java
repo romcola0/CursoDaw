@@ -1,4 +1,6 @@
-public class Entrada {
+package Ejercicios;
+
+public class Ejercicio4 {
     public static void main(String[] args) {
 
         String titulo = "Don Quijote de la Mancha";
@@ -14,3 +16,4 @@ public class Entrada {
         System.out.println("¿Disponible en biblioteca?: "+ disponible);
     }
 }
+
