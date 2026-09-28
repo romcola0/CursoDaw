@@ -11,6 +11,7 @@ public class Entrada {
     // (argumentos) lo que necesita el metodo para funcionar
     //Ejecucucion del metodo (Como funciona)
 
+    public String global = "Hola"; //esto es accesible desde todos lados
     public static void main(String[] args){
 
         //Println salta de linea como un enter, print normal no.
@@ -26,10 +27,13 @@ public class Entrada {
 
 
         //Las variables sirven para guardar datos y utilizarlos luego -> tipos: nombre valor
-        //segun el tipo de dato tengo guardado: palabras-clave / numeros / boolean
+        //HAY VARIOS TIPOS COMO:
+        //1.segun el tipo de dato tengo guardado: palabras-clave / numeros / boolean
         //variables con lowerCamelCase -> primera en minuscula y luego mayus
         //Las variables tienes que declararlas antes de usarlas
-        //segun el origen de dato tengo guardado: primmitivos -> int, double, boolean (en minusc) / complejos -> String(en mayus porque es una clase)
+        //2.segun el origen de dato tengo guardado: primmitivos -> int, double, boolean (en minusc) / complejos -> String(en mayus porque es una clase)
+        //3.segun su posibilidad de cambiar valor; mutables / no mutables (constante)
+        //4.segun su scope - de clase o metodo (Dentro del public static void main, si intento acceder a una variable en otro metodo no puedo)
 
         String nombreLegal = "Pepito";
         nombreLegal = "Pepito M";
@@ -47,11 +51,19 @@ public class Entrada {
 
         //Los numero los puedes guardar en byte, short, long
         int edad = 20;
-        //Floar tiene que tener la f al final
+        //Float tiene que tener la f al final
         double altura = 1.80;
         float alturaFloat = 1.80f;
         //boolean solo false o true
         boolean acierto = false;
+        //Object es la clase padre pero si la usamos siempre podemos ir perdiendo informacion
+        Object cosa = 1;
+        //Agregar final hace que sea no mutables y se suelen llamar en mayusculas. Ej;DNI
+        final String DNI = "123A";
 
+    }
+
+    public void main2(){
+        System.out.println(global);//accesible desde todos lados ya que su scope es mayor
     }
 }
