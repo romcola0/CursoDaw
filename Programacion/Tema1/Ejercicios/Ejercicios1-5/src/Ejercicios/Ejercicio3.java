@@ -1,5 +1,15 @@
 package Ejercicios;
+/*
+Define cinco variables con diferentes tipos de datos (String, int, boolean, double, char) y muestra tanto su valor como su tipo.
 
+Ejemplo de salida por consola:
+
+Nombre: Carlos - Tipo: String
+Edad: 30 - Tipo: int
+¿Es estudiante?: true - Tipo: boolean
+Altura: 1.75 - Tipo: double
+Inicial: C - Tipo: char
+ */
 public class Ejercicio3 {
     public static void main(String[] args) {
 

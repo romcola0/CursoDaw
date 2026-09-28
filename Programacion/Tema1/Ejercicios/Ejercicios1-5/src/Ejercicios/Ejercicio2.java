@@ -1,5 +1,14 @@
 package Ejercicios;
+/*
+Crea un programa que defina una variable llamada puntuación con valor inicial 0. Luego, modifica su valor tres veces y muestra el resultado final.
 
+Ejemplo de salida por consola:
+
+Puntuación inicial: 0
+Después de primera modificación: 5
+Después de segunda modificación: 10
+Puntuación final: 15
+ */
 public class Ejercicio2 {
     public static void main(String[] args) {
 
