@@ -8,7 +8,7 @@ Ana
 25
 Madrid
  */
-public class Ejercicio1 {
+public class EjercicioClase1 {
     public static void main(String[] args) {
         String nombre = "Ana";
         int edad = 25;

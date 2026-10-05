@@ -15,7 +15,7 @@ Usuario actualizado: Miguel
 Nivel actualizado: 2
 Puntuación actualizada: 150
  */
-public class Ejercicio5 {
+public class EjercicioClase5 {
     public static void main(String[] args) {
 
         //Variables mutables e inmutables

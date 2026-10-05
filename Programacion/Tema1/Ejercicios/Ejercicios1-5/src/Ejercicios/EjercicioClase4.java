@@ -10,7 +10,7 @@ Año de publicación: 1605
 Número de páginas: 863
 ¿Disponible en biblioteca?: true
  */
-public class Ejercicio4 {
+public class EjercicioClase4 {
     public static void main(String[] args) {
 
         String titulo = "Don Quijote de la Mancha";

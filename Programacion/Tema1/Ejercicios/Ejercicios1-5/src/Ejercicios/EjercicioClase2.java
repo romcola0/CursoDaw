@@ -9,7 +9,7 @@ Después de primera modificación: 5
 Después de segunda modificación: 10
 Puntuación final: 15
  */
-public class Ejercicio2 {
+public class EjercicioClase2 {
     public static void main(String[] args) {
 
         String nombre = "Carlos";

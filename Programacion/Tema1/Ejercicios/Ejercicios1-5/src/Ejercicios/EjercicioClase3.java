@@ -10,7 +10,7 @@ Edad: 30 - Tipo: int
 Altura: 1.75 - Tipo: double
 Inicial: C - Tipo: char
  */
-public class Ejercicio3 {
+public class EjercicioClase3 {
     public static void main(String[] args) {
 
         String nombre = "Carlos";
