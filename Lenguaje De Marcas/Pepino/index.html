@@ -16,5 +16,84 @@
     <br>
     <img src="pepino.jpg" width="200" height="200" alt="Pepinos sabrosos de varias longitudes" title="Pepino">
     <!-- alt sirve para ofrecer una descripcion de la imagen y title un titulo breve-->
+
+    <h2>Tipos de pepinos</h2>
+    <ul><!--Lista no ordenada-->
+        <li><a href="https://www.google.com/">Pepino albino</a></li>
+        <li>Pepino moreno</li>
+        <li>Pepino manchego</li>
+    </ul>
+
+    <ol><!--Lista ordenada-->
+        <li><a href="https://www.google.com/">Pepino albino</a></li>
+        <li>Pepino moreno</li>
+        <li>Pepino manchego</li>
+    </ol>
+
+    <h2>LISTA DE PEDIDOS</h2>
+    <table border="1">
+
+        <thead><!--Table head-->
+            <tr><!--Table row-->
+                <th>Nº PEDIDO</th><!--Table head-->
+                <th>FECHA</th>
+                <th>IMPORTE</th>
+                <th>VER</th>
+                <th colspan="2">ACCION</th><!--colspan celda ocupa mas de una columna-->
+            </tr>
+        </thead>
+        <tbody><!--Table body-->
+            <tr>
+            <td rowspan="1">#1234</td><!--Table data , rowspan celda ocupa mas de una fila-->
+            <td>12/12/2026</td>
+            <td>123,5€</td>
+            <td><button type="button">Click</button></td>
+            <td><button type="button">Editar</button></td>
+            <td><button type="button">Borrar</button></td>
+            </tr>
+            <tr>
+            <td>#1234</td><!--Table data-->
+            <td>12/12/2026</td>
+            <td>123,5€</td>
+            <td><button type="button">Click</button></td>
+            <td><button type="button">Editar</button></td>
+            <td><button type="button">Borrar</button></td>
+            </tr>
+            <tr>
+            <td>#1234</td><!--Table data-->
+            <td>12/12/2026</td>
+            <td>123,5€</td>
+            <td><button type="button">Click</button></td>
+            <td><button type="button">Editar</button></td>
+            <td><button type="button">Borrar</button></td>
+            </tr>
+            <tr>
+            <td>#1234</td><!--Table data-->
+            <td>12/12/2026</td>
+            <td>123,5€</td>
+            <td><button type="button">Click</button></td>
+            <td><button type="button">Editar</button></td>
+            <td><button type="button">Borrar</button></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Total Pedidos: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+
+
+    <h3>Introduce datos de registro</h3>
+    <form action="">
+        <legend>Datos de registro</legend>
+        <br>
+        <label for="">Nombre: 
+        <input type="text" placeholder="Introduce tu nombre" required>
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
